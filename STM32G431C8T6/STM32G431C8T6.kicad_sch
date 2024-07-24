@@ -1,0 +1,277 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "663a5ecd-c3a9-45b1-9792-71bfcbe6e773")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 123.19 62.865) (xy 137.795 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1a8976-6cf7-4e53-ab52-9bc32348c798")
+	)
+	(wire
+		(pts
+			(xy 123.19 65.405) (xy 137.795 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2574e4ed-45a1-4be9-b925-090b936dc6fc")
+	)
+	(wire
+		(pts
+			(xy 123.19 55.245) (xy 137.795 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfb1fb4-ef18-451b-8b96-04fde973a5aa")
+	)
+	(wire
+		(pts
+			(xy 123.19 60.325) (xy 137.795 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceed1e27-faf7-49e7-9134-144ad7e6f7b1")
+	)
+	(wire
+		(pts
+			(xy 123.19 57.785) (xy 137.795 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e560571f-cc0e-4be2-bc20-6ae901a39af4")
+	)
+	(sheet
+		(at 95.25 113.03)
+		(size 72.39 18.415)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "01deb91a-e8ae-4355-81f4-037b5f3b553a")
+		(property "Sheetname" "Power"
+			(at 95.25 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 95.25 132.0296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32G431C8T6"
+				(path "/663a5ecd-c3a9-45b1-9792-71bfcbe6e773"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 94.615 50.8)
+		(size 28.575 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e4fe2dd-542f-4b65-818e-e8664aedd318")
+		(property "Sheetname" "Debuger"
+			(at 94.615 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Debuger.kicad_sch"
+			(at 94.615 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USART2_TX" output
+			(at 123.19 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b24ea3cc-1147-4f77-b6d8-711d41ad16ba")
+		)
+		(pin "T_JTMS" output
+			(at 123.19 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e1cf697e-920f-4c0c-b443-8c233b808c65")
+		)
+		(pin "T_JTCK" output
+			(at 123.19 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e8d97425-1ba3-410e-a605-f8a11f1143fb")
+		)
+		(pin "T_NRST" output
+			(at 123.19 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8079a6bb-fb87-4cb2-b1d6-88a0943f8acb")
+		)
+		(pin "USART2_RX" output
+			(at 123.19 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c4caf5da-badb-4f02-8c54-1dc7f3274b62")
+		)
+		(instances
+			(project "STM32G431C8T6"
+				(path "/663a5ecd-c3a9-45b1-9792-71bfcbe6e773"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.795 50.8)
+		(size 29.845 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7bf2c3ac-81f8-468a-b55d-9a88e08cc5b9")
+		(property "Sheetname" "MCU"
+			(at 137.795 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 137.795 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "T_NRST" input
+			(at 137.795 65.405 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "14f8758e-563f-4468-b508-01a0d7dd7408")
+		)
+		(pin "USART2_RX" input
+			(at 137.795 55.245 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "56f62e0c-f521-4415-812a-4b4deac89bc0")
+		)
+		(pin "USART2_TX" input
+			(at 137.795 57.785 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2bef14ac-1831-46b2-b974-50db2315dc6f")
+		)
+		(pin "T_JTCK" input
+			(at 137.795 62.865 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d5c6066a-1a32-4753-865a-6136d5aebef4")
+		)
+		(pin "T_JTMS" input
+			(at 137.795 60.325 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8e4ab5f6-ba15-434f-bdb4-4812ce9e08af")
+		)
+		(instances
+			(project "STM32G431C8T6"
+				(path "/663a5ecd-c3a9-45b1-9792-71bfcbe6e773"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
